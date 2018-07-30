@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { ReactiveBase } from '@appbaseio/reactivesearch';
+import { DateRange } from '@appbaseio/reactivesearch';
 
 class App extends Component {
   render() {
@@ -12,6 +13,14 @@ class App extends Component {
         >
           Hello from ReactiveSearch!
         </ReactiveBase>
+
+        <DateRange
+          dataField="date_from"
+          componentId="DateRangeSensor"
+          title="When"
+          numberOfMonths={1}
+          queryFormat="basic_date" // yyyyMMdd
+        />
       </section>
     );
   }
