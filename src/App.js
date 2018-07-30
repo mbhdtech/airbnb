@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { ReactiveBase } from '@appbaseio/reactivesearch';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <section className="container">
+        <ReactiveBase
+          app="airbnb_clone_mbhdtech"
+          credentials="uWa0mgsKv:d8217a30-8340-4661-b0cc-10faf9da7a5f"
+          type="listing"
+        >
+          Hello from ReactiveSearch!
+        </ReactiveBase>
+      </section>
     );
   }
 }
-
 export default App;
