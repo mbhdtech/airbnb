@@ -6,13 +6,15 @@ class App extends Component {
   render() {
     return (
       <div className="container">
-          <ReactiveBase
-            app="airbnb_clone_mbhdtech"
-            credentials="uWa0mgsKv:d8217a30-8340-4661-b0cc-10faf9da7a5f"
-            type="listing"
-          >
-            Hello from ReactiveSearch!
-          </ReactiveBase>
+      {/* The div above is for the entire page */}
+        
+        
+        <ReactiveBase
+          app="airbnb_clone_mbhdtech"
+          credentials="uWa0mgsKv:d8217a30-8340-4661-b0cc-10faf9da7a5f"
+          type="listing"
+        >
+        {/* All the reactive search stuff will go inbetween these tags */}
 
           <nav className="navbar">
             <div className="title">AirBnB - Matt</div>
@@ -28,9 +30,9 @@ class App extends Component {
                       initialMonth={new Date('04-01-2017')}
             />
           </div>
+
+        </ReactiveBase>
       </div>
-
-
     );
   }
 }
