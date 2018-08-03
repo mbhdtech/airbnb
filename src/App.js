@@ -17,6 +17,17 @@ class App extends Component {
           <nav className="navbar">
             <div className="title">AirBnB - Matt</div>
           </nav>
+
+          <div className="left-column">
+            <DateRange
+                      dataField="date_from"
+                      componentId="DateRangeSensor"
+                      title="When"
+                      numberOfMonths={2}
+                      queryFormat="basic_date"
+                      initialMonth={new Date('04-01-2017')}
+            />
+          </div>
       </div>
 
 
