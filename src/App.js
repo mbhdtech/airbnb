@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { ReactiveBase } from '@appbaseio/reactivesearch';
 import { DateRange } from '@appbaseio/reactivesearch';
+import { NumberBox } from '@appbaseio/reactivesearch';
 
 class App extends Component {
   render() {
