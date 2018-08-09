@@ -25,11 +25,11 @@
   right: 0;
   border-right: 1px solid #f0f0f0;
 }
-.container .left-col > div {
+.container .left-column > div {
   margin: 40px 0;
 }
 @media all and (max-width: 768px) {
-  .container .left-col {
+  .container .left-column {
     position: static;
     width: 100%;
     height: auto;

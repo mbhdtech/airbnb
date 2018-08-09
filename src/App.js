@@ -27,7 +27,19 @@ class App extends Component {
                       title="When"
                       numberOfMonths={2}
                       queryFormat="basic_date"
-                      initialMonth={new Date('04-01-2017')}
+                      initialMonth={new Date('08-09-2018')}
+            />
+
+            <NumberBox
+                    componentId="GuestSensor"
+                    dataField="accommodates"
+                    title="Guests"
+                    defaultSelected={2}
+                    labelPosition="right"
+                    data={{
+                        start: 1,
+                        end: 16,
+                    }}
             />
           </div>
 
