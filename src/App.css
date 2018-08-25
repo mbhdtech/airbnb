@@ -2,7 +2,7 @@
   display: flex;
   padding-top: 52px;
 }
-.container .nav {
+.container .navbar {
   width: 100%;
   position: fixed;
   top: 0;

@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import { ReactiveBase } from '@appbaseio/reactivesearch';
 import { DateRange } from '@appbaseio/reactivesearch';
 import { NumberBox } from '@appbaseio/reactivesearch';
+import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="container">
       {/* The div above is for the entire page */}
-        
         
         <ReactiveBase
           app="airbnb_clone_mbhdtech"
