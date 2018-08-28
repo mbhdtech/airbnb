@@ -3,6 +3,8 @@
 This is a simple project that I decided to undertake to get my hands dirty with react and elastic search.
 React is something I've been wanting to do for a while, and with the help of the ReactiveSearch components I used, it was easy to use components that have the Elastic Search functionalilty built right in to them.
 
+Live Site -> https://airbnb-clone-mbhdtech.herokuapp.com/
+
 ## Setup
 
 - The dataset for the AirBnB was grabbed from www.kaggle.com
