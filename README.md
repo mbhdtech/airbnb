@@ -17,7 +17,7 @@ React is something I've been wanting to do for a while, and with the help of the
 
 ![alt text](https://github.com/mbhdtech/airbnb/blob/master/Images/Img7.png "Date Selector")
 
-![alt text](https://github.com/mbhdtech/airbnb/blob/master/Images/Img1.png "ReactiveBase Component for Credentials")
+<img src="https://github.com/mbhdtech/airbnb/blob/master/Images/Img1.png" width="300">
 
 -----------------------------------------------------------------------------------------------------------------------
 
@@ -29,16 +29,15 @@ React is something I've been wanting to do for a while, and with the help of the
 
 - Date Components
 
-![alt text](https://github.com/mbhdtech/airbnb/blob/master/Images/Img4.png "Date Selector")
-![alt text](https://github.com/mbhdtech/airbnb/blob/master/Images/Img3.png "Date Selector")
+<img src="https://github.com/mbhdtech/airbnb/blob/master/Images/Img3.png" width="250">
 
 - Number of Guests Selector
 
-![alt text](https://github.com/mbhdtech/airbnb/blob/master/Images/Img5.png "Guests")
+<img src="https://github.com/mbhdtech/airbnb/blob/master/Images/Img5.png" width="250">
 
 - Price Range Selector
 
-![alt text](https://github.com/mbhdtech/airbnb/blob/master/Images/Img6.png "Date Selector")
+<img src="https://github.com/mbhdtech/airbnb/blob/master/Images/Img6.png" width="250">
 
 
 ### As a user updates the criteria on the left side of the app, the results on the right change dynamically to fit those criteria.
